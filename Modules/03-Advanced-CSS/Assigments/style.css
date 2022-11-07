@@ -1,35 +1,88 @@
-.avatar > img{
-    width: 10rem;
-    height: 10rem;
-    border-radius: 9999px;
+.button_container{
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.name {
-    text-transform: capitalize;
-    font-weight: bolder;
-    font-size:xx-large;
-    font-style: italic;
-    text-align: center;
-    margin: 20px;
+.column{
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
-ul {
-    list-style-type: none;
-    display: flex;
+
+ul{
+  list-style-type: none;
+  align-items: center;
+}
+
+
+li{
+  display: inline;
+}
+
+.button{
+
+  background: beige;
+  border: none;
+  border-radius: px;
+  height: 20px;
+  line-height: 30px;
+  padding: 0 20px;
+  margin-left: 120px;
+  text-decoration: none;
+}
+
+.button:hover{
+  background-color: rgb(241, 212, 177);
 
 }
 
-li > img{
-    width: 50px;
-    height: 50px;
-    
+.icon{
+  margin: 0 10;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
 
 }
 
-.flexbox{
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
 
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  margin-left: 10px;
 }
 
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  margin-left: 10px;
+}
+
+.fa-instagram {
+  background: #ea4c89;
+  color: white;
+  margin-left: 10px;
+}
+
+h5{
+  text-align: center;
+}
