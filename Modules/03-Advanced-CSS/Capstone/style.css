@@ -1,0 +1,187 @@
+
+body{
+    background-color: #ADD8E6;
+}
+
+.col{
+    height: 5em;
+}
+
+.row{
+    display: flex;
+}
+
+.logo{
+    width: 12rem;
+    height: 5rem;
+}
+
+.left{
+    flex: 0;
+}
+
+
+.mid{
+    flex: 1;
+    
+}
+
+.right{
+    flex:0;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin-top: 20px;
+    margin-left: 0px;
+} 
+
+h5{
+    margin-right: 15px;
+}
+
+main{
+    height: 30vh;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+.phone {
+    height: 2rem;
+    width: 2rem;
+}
+
+.mail_icon {
+    height: 2rem;
+    width: 2rem;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+  }
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+.fa-instagram {
+    background: #ea4c89;
+    color: white;
+  }
+
+ul{
+    list-style-type: none;
+}
+
+.footer{
+    display: flex;
+    background-color: #ADD8E6;
+}
+
+.one{
+    background-color: 	#ace5ee;
+    flex:1;
+}
+
+.two{
+    background-color: #ace5ee;
+    flex: 2;
+}
+
+h3{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: larger;
+}
+
+.contactinfo{
+    margin-top: 30px;
+    margin: 20px;
+}
+.flexbox1{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.flexbox1 > p{
+    margin-top: 5px;
+    margin-left: 20px;
+
+}
+
+.flexbox2{
+   display: flex;
+   margin-left: 10px;
+}
+
+.flexbox2 > p{
+    margin-top: 5px;
+    margin-left: 20px;
+} 
+
+h5{
+    margin-left: 170px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-style: italic;
+}
+
+form{
+    margin: 10px 5px 15px 20px;
+    padding: 0;
+    text-align: center;
+    font-family: arial;
+}
+
+.name1, .mail_num, .subject, .message {
+    display: flex;
+    margin: 20px;
+}
+
+.firstname, .email{
+    margin-left: 120px;
+}
+
+.lastname, .mobile{
+    margin-right: 5px;
+}
+
+.sbj, .msg {
+    margin-left: 120px;
+}
+
+.submit {
+    text-align: end;
+    margin: 5px;
+    font-size: small;
+}
