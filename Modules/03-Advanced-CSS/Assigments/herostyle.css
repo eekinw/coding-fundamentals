@@ -1,0 +1,44 @@
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+.one{
+    flex: 2;
+    background-color: aliceblue;
+    height: 300px;
+    border: 2px solid black;
+}
+
+.two{
+    flex: 1;
+    height: 300px;
+    border: 2px solid black;
+    background-color: wheat;
+}
+
+.two > img{
+    border-radius: 9999px;
+    width: 14rem;
+    height: 14rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+h2{
+    margin-top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+p{
+  margin-top: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-style: italic;
+  font-size: larger;
+}
