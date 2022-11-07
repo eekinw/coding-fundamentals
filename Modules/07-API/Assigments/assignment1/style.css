@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body {
+ 
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: antiquewhite;
+    padding: 2rem;
+
+}
+
+.container {
+    background-color: wheat;
+    border-radius: 20px;
+    padding: 5rem 2rem;
+    box-shadow: inset;
+    line-height: 60px;
+}
+
+.container > h1 {
+    color: grey;
+}
+
+.button {
+   margin-top: auto;
+   margin-right: auto;
+   margin-left: 20px;
+   padding: 5px;
+}
