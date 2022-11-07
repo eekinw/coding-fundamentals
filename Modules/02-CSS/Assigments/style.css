@@ -1,0 +1,25 @@
+.menu {    
+    padding: 20px;
+    margin: 20px;
+    line-height: 50px;
+    box-sizing: border-box;
+    font-size: x-large;
+    position: relative;
+  }
+  
+  
+.submenu {  
+    display: grid;
+    max-width: 20%;
+    background-color: lightgray;
+  }
+  
+.submenu-item {  
+    background-color: lightgray;
+    padding: 10px; 
+  }
+
+.submenu-item:hover {    
+    cursor: pointer;
+    background-color: gray;
+  }
